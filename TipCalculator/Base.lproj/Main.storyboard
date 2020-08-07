@@ -166,6 +166,7 @@
                     <connections>
                         <outlet property="billTextField" destination="mcL-0z-afB" id="m6x-pi-OS9"/>
                         <outlet property="splitNumberLabel" destination="VgJ-s2-2hn" id="DYc-22-zOH"/>
+                        <outlet property="stepper" destination="tuN-vM-yCB" id="i6q-pJ-SMT"/>
                         <outlet property="tenPercentButton" destination="a0B-rZ-13g" id="bFs-hn-Akc"/>
                         <outlet property="twentyPercentButton" destination="IUl-RG-6dg" id="W0S-Zu-CvG"/>
                         <outlet property="zeroPercentButton" destination="vYW-O7-Zpa" id="ZNv-7N-7vH"/>

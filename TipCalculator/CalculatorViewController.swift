@@ -19,6 +19,7 @@ class CalculatorViewController: UIViewController, ResultsViewControllerDelegate 
     @IBOutlet weak var tenPercentButton: UIButton!
     @IBOutlet weak var twentyPercentButton: UIButton!
     @IBOutlet weak var splitNumberLabel: UILabel!
+    @IBOutlet weak var stepper: UIStepper!
     
     
     override func viewDidLoad() {
@@ -80,8 +81,11 @@ class CalculatorViewController: UIViewController, ResultsViewControllerDelegate 
     
     func resetAllDataOnTheFirstVC() {
         print("resetAllDataTheFirstVC")
+        stepper.value = 0.0
         splitNumberLabel.text = "0"
         billTextField.text = ""
+        userToSplit = 0
+        tipValue = 0.0
         zeroPercentButton.isSelected = true
         tenPercentButton.isSelected = false
         twentyPercentButton.isSelected = false
